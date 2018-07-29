@@ -1,0 +1,7 @@
+	friend class UThreadingManager;
+private:
+	void* threadHandle;
+	unsigned long threadId;
+	FBlueprintThreadFunc BlueprintThreadFunc;
+private:
+	XThreadObj* Create();
